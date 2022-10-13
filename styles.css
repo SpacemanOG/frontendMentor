@@ -150,7 +150,7 @@ main {
 
 /* THE MOBILE VERSION STARTS HERE */
 
-@media (max-width: 376px) {
+@media (max-width: 428px) {
 
     .container {
         width: 343px;
