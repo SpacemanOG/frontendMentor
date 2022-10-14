@@ -53,9 +53,15 @@ main {
 }
 
 .productName {
-    font-family: 'Fraunces', serif;
     font-size: xx-large;
     line-height: 1;
+}
+
+.productName h1 {
+    font-family: 'Fraunces', serif;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 .productDescription {
@@ -75,7 +81,7 @@ main {
 
 .regularPrice {
     font-size: small;
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     color: hsl(228, 12%, 48%);
     margin-left: 24px;
     text-align: left;
